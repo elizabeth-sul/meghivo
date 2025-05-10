@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Esküvői Meghívó</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+  <!-- Nyitóképernyő -->
+  <div id="start-screen">
+    <button id="start-button">Felszállás ✈️ 🔊</button>
+  </div>
+
+  <!-- Videó -->
+  <div id="video-container">
+    <video id="intro-video" src="intro.mp4" type="video/mp4"></video>
+    <div id="save-the-date" class="show-nav">
+      <h1>Save the date:</h1>
+      <h2>2025. október 04.</h2>
+      <button id="next-button" class="next-button">Következő</button>
+    </div>
+  </div>
+
+  <!-- Lapozható oldalak -->
+  <div id="carousel" style="display: none;">
+    <div class="slide">
+      <img src="1. oldal.jpg" alt="1. oldal" class="slide-image" />
+      <div class="nav-buttons">
+        <button class="prev">Előző</button>
+        <button class="next">Következő</button>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="2. oldal.jpg" alt="2. oldal" class="slide-image" />
+      <div class="nav-buttons">
+        <button class="prev">Előző</button>
+        <button class="next">Következő</button>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="3. oldal.jpg" alt="3. oldal" class="slide-image landscape"/>
+      <div class="nav-buttons">
+        <button class="prev">Előző</button>
+        <button class="next">Következő</button>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="4. oldal.jpg" alt="4. oldal" class="slide-image landscape" />
+      <div class="nav-buttons">
+        <button class="prev">Előző</button>
+        <button class="next">Következő</button>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="info-text">
+        <p>RSVP és további információk:<br />
+          <a href="https://planning.wedding/website/erzsebet-es-adam" target="_blank">
+            https://planning.wedding/website/erzsebet-es-adam
+          </a>
+        </p>
+        <div class="nav-buttons">
+            <button class="prev">Előző</button>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
