@@ -37,9 +37,6 @@ body, html {
   box-shadow: 0 0 15px rgb(248, 235, 160);
 }
 
-#start-button i {
-  font-size: 1.5rem;
-}
 #video-container {
   position: fixed;
   top: 0;
